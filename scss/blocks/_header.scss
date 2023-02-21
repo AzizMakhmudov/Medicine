@@ -1,0 +1,61 @@
+.logo-text {
+  color: #fe0000;
+}
+
+.logo-text::selection {
+  color: white;
+  background-color: red;
+}
+
+.link-logo {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.number-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.header-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+
+header {
+  width: 100%;
+  z-index: 1;
+  position: fixed;
+  background-color: rgba($color: #fff, $alpha: 0.6);
+}
+
+.header-btn {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  & button {
+    padding: 5px 50px;
+    outline: none;
+    border: none;
+    background-color: aqua;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+  }
+}
+
+.btn-lang:hover {
+  background-color: rgb(255, 8, 255);
+  color: white;
+}

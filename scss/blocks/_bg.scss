@@ -1,0 +1,93 @@
+.bg-shifoxona {
+  background-image: url("https://americanhospital.uz/themes/americanhospital/img/bg/bg-services.jpg");
+  width: 100%;
+  height: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 45px;
+}
+
+.first-box {
+  padding-top: 40px;
+}
+
+.title-service {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.info-service {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #ffffff;
+  width: 567px;
+  margin-bottom: 30px;
+}
+
+.box-service {
+  width: 270px;
+  height: 220px;
+  background-color: rgba($color: #fff, $alpha: 0.3);
+  padding: 15px 10px;
+  cursor: pointer;
+}
+
+.box-service:hover {
+  background-color: #fff;
+  & p {
+    color: black;
+    transition: 0.6s;
+  }
+  & h3 {
+    color: black;
+    transition: 0.6s;
+  }
+  & svg {
+    fill: #fe0000;
+    transition: 0.6s;
+  }
+  & svg > g {
+    fill: #fe0000;
+  }
+  transition: 0.6s;
+}
+
+.second-box {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.img-content {
+  text-align: center;
+  display: block;
+}
+
+.text-content {
+  text-align: center;
+}
+
+.title-card {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.1867px;
+  line-height: 21px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.info-card {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.3px;
+  line-height: 23px;
+  color: #ffffff;
+  text-align: center;
+}

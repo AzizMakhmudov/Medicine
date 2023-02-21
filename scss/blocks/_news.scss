@@ -1,0 +1,73 @@
+.news-box {
+  background-image: url("https://americanhospital.uz/themes/americanhospital/img/bg/bg-news.jpg");
+  content: "";
+  width: 100%;
+  height: 581.38px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 10px;
+  position: relative;
+  z-index: 0;
+}
+
+.news-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.news-info {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4e5860;
+  width: 687.97px;
+  transform: scale(90deg);
+  margin-bottom: 10px;
+}
+
+.news-slide {
+  width: 369px;
+  height: 322px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px 25px;
+  cursor: pointer;
+}
+
+.news-slide:hover {
+  transform: scale(0.9);
+  transition: 0.3s ease;
+}
+
+.data-post {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.news-day__info {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  width: 282.56px;
+}
+
+.swiper-news__box {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.swiper-scrollbar {
+  position: inherit !important;
+  margin-top: 40px;
+}
